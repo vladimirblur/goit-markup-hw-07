@@ -1,0 +1,20 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: $footer-background-color;
+}
+
+.footer__join {
+  width: 270px;
+  margin-right: 30px;
+}
+
+.join__text {
+  @extend %footer-titles;
+}
+
+.join .social-icons-link:hover,
+.join .social-icons-link:focus {
+  background-color: $accent-color;
+}

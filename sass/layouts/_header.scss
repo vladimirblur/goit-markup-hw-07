@@ -1,0 +1,8 @@
+.header {
+  border-bottom: 1px solid #ececec;
+  background-color: $primary-white-color;
+}
+
+.header__nav {
+  @extend %header-flex;
+}

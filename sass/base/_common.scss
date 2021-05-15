@@ -1,0 +1,33 @@
+body {
+  font-family: $main-font;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+
+  background-color: $primary-white-color;
+  color: $primary-text-color;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.img-block {
+  display: block;
+}
+
+.list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.title {
+  color: $title-text-color;
+}

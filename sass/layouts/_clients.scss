@@ -1,0 +1,32 @@
+.clients__list {
+  display: inline-flex;
+}
+
+.clients__item {
+  width: 170px;
+  height: 90px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.clients__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  border: 1px solid $icon-color;
+  border-radius: 4px;
+  fill: $icon-color;
+
+  transition: border-color $animation, fill $animation;
+
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+    fill: $accent-color;
+  }
+}
