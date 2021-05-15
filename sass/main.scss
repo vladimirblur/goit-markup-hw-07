@@ -1,28 +1,4 @@
-@import './base/fonts';
-@import './utils/variables';
-@import './utils/placeholders';
-@import './utils/visually-hidden';
-
-@import './base/common';
-@import './base/container';
-@import './base/card-set';
-
-@import './components/buttons';
-@import './components/logo';
-@import './components/menu';
-@import './components/contacts';
-@import './components/social-icons';
-@import './components/address';
-@import './components/newsletter-form';
-@import './components/modal';
-@import './components/subscribe-form';
-
-@import './layouts/header';
-@import './layouts/sections';
-@import './layouts/hero';
-@import './layouts/features';
-@import './layouts/activity';
-@import './layouts/team';
-@import './layouts/clients';
-@import './layouts/footer';
-@import './layouts/portfolio-filters';
+@import './utils/index';
+@import './base/index';
+@import './components/index';
+@import './layouts/index';
