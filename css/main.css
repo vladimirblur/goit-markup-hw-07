@@ -81,6 +81,8 @@
 body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
+  font-weight: 400;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   background-color: #ffffff;
   color: #757575;
@@ -447,8 +449,7 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address__link:hover,
-.address__link:focus {
+.address__link:hover, .address__link:focus {
   color: #2196f3;
 }
 

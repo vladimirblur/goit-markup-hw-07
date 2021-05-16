@@ -24,9 +24,9 @@
   color: rgba(255, 255, 255, 0.6);
 
   transition: color $animation;
-}
 
-.address__link:hover,
-.address__link:focus {
-  color: $accent-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
